@@ -1,4 +1,4 @@
-﻿using BusTicketingSystem.Models;
+using BusTicketingSystem.Models;
 using BusTicketingSystem.Services;
 using System;
 using System.Collections.Generic;
@@ -40,18 +40,6 @@ namespace BoholBusTicketingApp
             }
 
             MessageBox.Show($"Date: {selectedDate:yyyy-MM-dd}\nTotal Tickets: {tickets.Count}\nTotal Fare: P{totalFare:F2}");
-        }
-
-        private void InitializeComponent()
-        {
-            SuspendLayout();
-            // 
-            // AdminForm
-            // 
-            ClientSize = new Size(323, 272);
-            Name = "AdminForm";
-            ResumeLayout(false);
-
         }
     }
 }
